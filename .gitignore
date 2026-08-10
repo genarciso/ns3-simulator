@@ -1,0 +1,8 @@
+NS3-*/
+
+build/
+build-*/
+cmake-cache/
+.vscode/
+__pycache__/
+
