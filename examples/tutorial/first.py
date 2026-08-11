@@ -3,7 +3,7 @@
 #
 
 try:
-    from ns import ns
+    from ns import ns  # type: ignore[import-not-found]
 except ModuleNotFoundError:
     raise SystemExit(
         "Error: ns3 Python module not found;"
